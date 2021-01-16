@@ -1,0 +1,57 @@
+article p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+
+article h1 {
+  font-weight: 700;
+  padding: 0px;
+}
+
+article img {
+  display: inline-block;
+  margin: 1vw;
+  width: 20vw;
+}
+
+.more-info {
+  display: inline-block;
+  margin: 10vw;
+  padding: 1vw;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 1vw 1vw 2vw #000000;
+  transition-duration: 0.3s;
+}
+
+.more-info p {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+.more-info #yesBut {
+  font-weight: 900;
+  font-size: 36px;
+  margin-right: 10px;
+  text-shadow: 2px 2px 20px #000000;
+  display: block;
+}
+
+.more-info:hover {
+  transition-duration: 0.3s;
+  transform: translate(-0.3vw);
+}
+
+#more-info:active {
+  transition: 0.3s;
+  transform: translate(-0.3vw, 4px)
+}
+
+.wrapper {
+  text-align: center;
+  display: block
+}

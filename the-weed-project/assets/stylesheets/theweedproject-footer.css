@@ -1,0 +1,29 @@
+#mainfooter hr {
+  width: 50vw;
+  border-color: white;
+  opacity: 0.1;
+}
+
+#mainfooter p {
+  color: white;
+  opacity: 0.1;
+  font-size: 12px;
+  text-align: center;
+  margin: 0px;
+  padding: 24px;
+  transition-duration: 0.3s;
+}
+
+#mainfooter p:hover {
+  opacity: 0.3;
+  transition-duration: 0.3s;
+}
+
+#mainfooter a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#mainfooter a:hover {
+  transform: scale();
+}

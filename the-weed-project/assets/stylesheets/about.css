@@ -1,0 +1,74 @@
+article {
+  margin: 2vw;
+}
+
+article hr {
+  width: 30vw;
+  float: left;
+}
+
+article p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+
+article h1 {
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+}
+
+article #text {
+  width: 48vw;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  vertical-align: top;
+}
+
+article img {
+  width: 42vw;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.more-info {
+  display: inline-block;
+  margin: 1vw;
+  padding: 0.5vw;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 1vw 1vw 2vw #000000;
+  transition-duration: 0.3s;
+}
+
+.more-info p {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+.more-info #yesBut {
+  font-weight: 900;
+  font-size: 36px;
+  margin-right: 10px;
+  text-shadow: 2px 2px 20px #000000;
+}
+
+.more-info:hover {
+  transition-duration: 0.3s;
+  transform: translate(-0.3vw);
+}
+
+.more-info:active {
+  transition: 0.3s;
+  transform: translate(-0.3vw, 4px)
+}
+
+.wrapper {
+  text-align: center;
+}

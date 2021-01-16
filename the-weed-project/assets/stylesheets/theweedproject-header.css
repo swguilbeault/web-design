@@ -1,0 +1,55 @@
+#mainheader {
+  top: 0px;
+  position: sticky;
+  display: relative;
+  background-color: black;
+  border-width: 0px 0px 0.3vh 0px;
+  border-color: white;
+  border-style: inset;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+#mainheader li {
+  line-height: 10vh;
+  display: inline-block;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2vh;
+  margin-right: 2vw;
+  transition-duration: 0.3s;
+}
+
+#mainheader ul {
+  display: inline-block;
+  float: right;
+  align-self: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+#mainheader img {
+  display: inline-block;
+  height: 8vh;
+  margin: 1vh;
+  transition-duration: 0.3s;
+}
+
+#mainheader img:hover {
+  transition-duration: 0.3s;
+  transform: translateY(0.1vh);
+  opacity: 0.8;
+}
+
+#mainheader a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#mainheader li:hover {
+  transition-duration: 0.3s;
+  transform: translateY(0.1vh);
+  opacity: 0.8;
+}
