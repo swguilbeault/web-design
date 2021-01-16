@@ -1,0 +1,187 @@
+#banner {
+  height: 45vh;
+  overflow-y: hidden;
+  position: relative;
+}
+
+#banner img {
+  width: 100%;
+  filter: blur(2px);
+}
+
+#banner h1 {
+  display: inline-block;
+  font-size: 10vh;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 5vw;
+  text-shadow: 0vh 0vh 1vw black, 0vh 0vh 1vw black;
+}
+
+#intro {
+  margin: 3vw 5vw 0vw 5vw;
+  font-size: 0;
+}
+
+#intro p {
+  font-size: 2vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  width: 60%;
+  margin-right: 5%;
+  display: inline-block;
+}
+
+#intro li {
+  font-size: 2vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  width: 60%;
+  margin-right: 5%;
+  display: inline-block;
+}
+
+#intro img {
+  width: 35%;
+  margin-top: 5vw;
+}
+
+.program {
+  margin: 0 5vw 3vw 5vw;
+  font-size: 0;
+  background-color: rgb(220, 220, 220);
+  border-radius: 1vw;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+}
+
+/*
+.program:hover {
+  border-color: var(--accent1);
+  background-color: white;
+} */
+
+.program div {
+  display: inline-block;
+  border-radius: 1vw;
+}
+
+.program .lng {
+  width: 8vw;
+  height: 8vw;
+  background-color: var(--accent1);
+  border-radius: 1vw;
+}
+
+.program .lng p {
+  font-size: 3vw;
+  color: var(--accent2);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 2vw 0 0 0;
+}
+
+.program .lng.py {
+  width: 8vw;
+  height: 8vw;
+  background-color: blue;
+  border-radius: 1vw;
+}
+
+.program .lng.py p {
+  color: yellow;
+}
+
+.program .lng.js {
+  background-color: orange;
+}
+
+.program .lng.js p {
+  color: white;
+}
+
+.program .lng.html {
+  background-color: purple;
+}
+
+.program .lng.html p {
+  color: pink;
+}
+
+.program .desc {
+  width: 58vw;
+  margin: 1vw 5vw 0 5vw;
+  vertical-align: top;
+}
+
+.program .desc h1 {
+  width: 100%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 3vw;
+  margin: 0;
+}
+
+.program .desc p {
+  width: 100%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1vw;
+  margin: 0;
+}
+
+.program button {
+  background-color: var(--accent2);
+  width: 12vw;
+  height: 4vw;
+  border-style: none;
+  border-color: black;
+  border-radius: 2vw;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2vw;
+  box-shadow: 0.2vw 0.2vw 0.5vw rgba(0, 0, 0, 0.5);
+}
+
+.program button:hover {
+  cursor: pointer;
+  background-color: var(--accent1);
+  color: white;
+  transition-duration: 0.25s;
+}
+
+.program button:active {
+  transform: translateY(0.2vw);
+}
+
+.program button.disabled {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  color: rgb(150, 150, 150);
+  box-shadow: none;
+}
+
+.program button.disabled:hover {
+  cursor: auto;
+}
+
+.program form {
+  display: inline-block;
+}
+
+hr {
+  margin: 5vh 26vw 5vh 26vw;
+  border-width: 1px;
+  border-color: var(--accent2);
+  border-style: solid;
+}

@@ -1,0 +1,75 @@
+#banner {
+  height: 45vh;
+  overflow-y: hidden;
+  position: relative;
+}
+
+#banner img {
+  width: 100%;
+}
+
+#banner h1 {
+  display: inline-block;
+  font-size: 10vh;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 5vw;
+  text-shadow: 0vh 0vh 1vw black, 0vh 0vh 1vw black;
+}
+
+#intro {
+  margin: 3vw 5vw 0vw 5vw;
+  font-size: 0;
+  width: 60%;
+}
+
+#intro p {
+  font-size: 2vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  width: 100%;
+  margin-right: 5%;
+  display: inline-block;
+}
+
+#intro li {
+  font-size: 2vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  width: 60%;
+  margin-right: 5%;
+  display: inline-block;
+}
+
+#intro img {
+  width: 35%;
+  margin-top: 5vw;
+}
+
+#intro ul {
+  margin-top: 7vh;
+  display: inline-block;
+  width: 25vw;
+}
+
+#intro ul li img {
+  margin: 0;
+  width: auto;
+  height: 1vh;
+}
+
+#intro ul a {
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--accent1);
+}
+
+#intro ul a:hover {
+  color: var(--accent2);
+  transition-duration: 0.25s;
+}

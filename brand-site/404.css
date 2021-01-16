@@ -1,0 +1,81 @@
+#content {
+  font-size: 0;
+  vertical-align: top;
+}
+
+#left {
+  margin: 0 0 0 5vw;
+  width: 50vw;
+  display: inline-block;
+  height: 80vh;
+  vertical-align: top;
+  padding-top: 30vh
+}
+
+#left h1 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 5vw;
+  font-weight: 800;
+  display: inline-block;
+}
+
+#left h2 {
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5vw;
+  color: var(--accent1);
+}
+
+#left h3 {
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7vw;
+  transform: translateY(0.5vw);
+}
+
+#left div {
+  display: inline-block;
+}
+
+#face {
+  margin: 25vh 5vw 20vh 5vw;
+  width: 30vw;
+  height: 30vw;
+  display: inline-block;
+  background-image: url('./images/brand_face-graphic.png');
+  background-size: contain;
+}
+
+#face:hover {
+  background-image: url('./images/brand_face-graphic-raised.png')
+}
+
+#content p {
+  font-weight: 300;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+  margin: 2vh 0 2vh 0;
+}
+
+#content ol {
+  font-weight: 300;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+  margin: 2vh 0 2vh 3vw;
+}
+
+#content a {
+  transition-duration: 0.25s;
+  font-weight: 400;
+  color: var(--accent1);
+  text-decoration: none;
+}
+
+#content a:hover {
+  color: var(--accent2);
+}

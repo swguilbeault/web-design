@@ -1,0 +1,87 @@
+#banner {
+  height: 45vh;
+  overflow-y: hidden;
+  position: relative;
+}
+
+#banner img {
+  width: 100%;
+}
+
+#banner h1 {
+  display: inline-block;
+  font-size: 10vh;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 5vw;
+  text-shadow: 0vh 0vh 1vw black, 0vh 0vh 1vw black;
+}
+
+#intro {
+  margin: 0 5vw 5vw 5vw;
+  font-size: 0;
+}
+
+#intro p {
+  font-size: 2vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  width: 60%;
+  margin-top: 5vh;
+  margin-right: 5%;
+  display: inline-block;
+}
+
+#intro img {
+  width: 35%;
+  margin-top: 5vw;
+}
+
+.team {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 5vw 5vw 5vw;
+  font-size: 0;
+  text-align: center;
+}
+
+.team hr {
+  margin: 0 26vw 5vh 26vw;
+  border-width: 1px;
+  border-color: var(--accent2);
+  border-style: solid;
+}
+
+.team img {
+  width: 60%;
+}
+
+.team h1 {
+  font-size: 3vw;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.team h2 {
+  font-size: 2vw;
+  font-weight: 400;
+  color: var(--accent1);
+  margin: 0 0 1vw 0;
+}
+
+.team p {
+  font-size: 2vh;
+  font-weight: 300;
+  margin: 0 17vw 0 17vw;
+}
+
+.team a {
+  color: var(--accent1);
+}
+
+.team a:active {
+  color: var(--accent2);
+}
